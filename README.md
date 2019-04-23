@@ -1,12 +1,19 @@
 # en python
 1 - instalar venv
-  - pip3 install venv
+  ```
+  pip3 install venv
+  ```
 
 2 - crear el venv
+  ```
   python3 -m venv /path/al/proyecto
+  ```
  
 3 - para activar el venv
-  - linux: source /path/al/proyecto/venv/bin/activate
+  - linux: 
+      ```
+      source /path/al/proyecto/venv/bin/activate
+      ```
 
 4 - desactivar el venv: solo ejecutas "deactivate" dentro del venv activado
 
@@ -21,10 +28,11 @@
   - Project -> Edit Project
   
   Añadir el virtualenv
-  
+  ```
   "settings": {
     "python_interpreter": "/home/user/.virtualenvs/example/bin/python"
   }
+  ```
 
 8 - Abrir la carpeta donde Sublime tiene los paquetes
   - Preferences -> Browse Packages.. (la primera opcion)
@@ -34,7 +42,7 @@
   
 10 - Creamos un keybind:
    - Preferences -> Key Bindings - User
-   
+   ```
    // Runs currently open file in repl
     {
         "keys": ["f5"],
@@ -56,3 +64,4 @@
             "open_file": "/home/user/example/main.py"
         }
     }
+   ```
