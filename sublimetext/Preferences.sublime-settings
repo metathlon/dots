@@ -1,0 +1,33 @@
+{
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+
+    "font_face": "Source Code Pro",
+    "font_size": 10,
+
+    // The number of spaces a tab is considered equal to
+    "tab_size": 4,
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+
+    
+    // Valid values are "smooth", "phase", "blink" and "solid".
+    "caret_style": "solid",
+    
+    // When enabled, the caret will be drawn as a rectangle, using the width
+    // of the current character
+    "block_caret": true,
+
+    // Additional spacing at the top of each line, in pixels
+    "line_padding_top": 1,
+
+    // Additional spacing at the bottom of each line, in pixels
+    "line_padding_bottom": 1,
+
+    // Set to false to disable scrolling past the end of the buffer.
+    // On Mac, this value is overridden in the platform specific settings, so
+    // you'll need to place this line in your user settings to override it.
+    "scroll_past_end": true,
+}
